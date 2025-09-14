@@ -4,7 +4,7 @@ ESP32 "Cheap Yesslow Display" Sample Project with usage of LVGL and EEZ Studio
 ## Introduction
 By accident I found the "Cheap Yesslow Display" Board which is a cool piece of equipment for "maker nerds" (like me). My goal was to establish a cool dev environment to use the CYD at it's best. Here is the result:
 
-	![CYD Image](IMAGES/cyd.png)
+![CYD Image](IMAGES/cyd.png)
 
 ## Dev Environment
 I used to work with the classic Arduino IDE with ESP8266 and ESP32 projects, but with this project I decided to switch finally to PlattformIO because the Arduino IDE build times are not funny anymore...
