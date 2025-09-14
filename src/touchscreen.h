@@ -1,11 +1,10 @@
 //============================================================================
 //
-//  CYD_EEZ_V1 - Cheap Yellow Display - EEZ Studio generierter Code
+//  ESP32_CYD - ESP32 Cheap Yellow Display Sample Project
 //
-//  touchscreen.h ist NICHT generiert
+//  touchscreen.h is one of two files which is not generated
 //
-//  Version 1.0 - 14.09.2025
-//  (c) 2025 by Johannes Kepler University Linz (JKU von der KI erweitert)
+//  Version 1.0 - 14.09.2025 - jokubokla@gmail.com
 //
 //============================================================================
 #include <TFT_eSPI.h>
@@ -55,7 +54,7 @@ void touchscreen_setup()
   Serial.begin(460800);
   Serial.println();
   Serial.println();
-  Serial.println("Touchscreen Test");
+  Serial.println("ESP32_CYD - ESP32 Cheap Yellow Display Sample Project");
 
   lv_init();
 

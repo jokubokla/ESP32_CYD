@@ -1,14 +1,12 @@
 //============================================================================
 //
-//  CYD_EEZ_V1 - Cheap Yellow Display - EEZ Studio generierter Code
+//  ESP32_CYD - ESP32 Cheap Yellow Display Sample Project
 //
-//  main.cpp ist NICHT generiert
+//  main.cpp is one of two files which is not generated
 //
-//  Version 1.0 - 14.09.2025
-//  (c) 2025 by Johannes Kepler University Linz (JKU von der KI erweitert)
+//  Version 1.0 - 14.09.2025 - jokubokla@gmail.com
 //
 //============================================================================
-
 #include "touchscreen.h"
 #include "ui.h"
 
@@ -23,7 +21,7 @@ static void button_event_blue(lv_event_t *e)
   {
     static uint8_t counter = 0;
     counter ++;
-    lv_label_set_text_fmt(objects.lbl_beispiel, "Hier wurde %d mal geklicked", counter);
+    lv_label_set_text_fmt(objects.lbl_sample, "You clicked %d times", counter);
   }
 }
 
@@ -40,12 +38,12 @@ static void button_event_red(lv_event_t *e)
    if(lv_obj_has_state(objects.chk_test, LV_STATE_CHECKED))
    {
      // Checkbox is checked
-    lv_label_set_text_fmt(objects.lbl_beispiel, "Checkbox is checked");
+    lv_label_set_text_fmt(objects.lbl_sample, "Checkbox is checked");
    }
    else
    {
      // Checkbox is not checked
-    lv_label_set_text_fmt(objects.lbl_beispiel, "Checkbox is not checked");
+    lv_label_set_text_fmt(objects.lbl_sample, "Checkbox is not checked");
    }
 
   }

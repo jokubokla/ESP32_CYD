@@ -22,18 +22,18 @@ void create_screen_main() {
     {
         lv_obj_t *parent_obj = obj;
         {
-            // lbl_beispiel
+            // lbl_sample
             lv_obj_t *obj = lv_label_create(parent_obj);
-            objects.lbl_beispiel = obj;
-            lv_obj_set_pos(obj, 77, 197);
+            objects.lbl_sample = obj;
+            lv_obj_set_pos(obj, 86, 190);
             lv_obj_set_size(obj, LV_SIZE_CONTENT, LV_SIZE_CONTENT);
-            lv_label_set_text(obj, "Das ist ein Beispieltext");
+            lv_label_set_text(obj, "This is a Sample Text");
         }
         {
             // btn_blue
             lv_obj_t *obj = lv_button_create(parent_obj);
             objects.btn_blue = obj;
-            lv_obj_set_pos(obj, 27, 40);
+            lv_obj_set_pos(obj, 28, 41);
             lv_obj_set_size(obj, 120, 50);
             lv_obj_set_style_bg_color(obj, lv_color_hex(0xff2137f3), LV_PART_MAIN | LV_STATE_DEFAULT);
             {
@@ -45,7 +45,7 @@ void create_screen_main() {
                     lv_obj_set_pos(obj, 0, 0);
                     lv_obj_set_size(obj, LV_SIZE_CONTENT, LV_SIZE_CONTENT);
                     lv_obj_set_style_align(obj, LV_ALIGN_CENTER, LV_PART_MAIN | LV_STATE_DEFAULT);
-                    lv_label_set_text(obj, "Klick mich");
+                    lv_label_set_text(obj, "Click me");
                 }
             }
         }
@@ -65,7 +65,7 @@ void create_screen_main() {
                     lv_obj_set_pos(obj, 0, 0);
                     lv_obj_set_size(obj, LV_SIZE_CONTENT, LV_SIZE_CONTENT);
                     lv_obj_set_style_align(obj, LV_ALIGN_CENTER, LV_PART_MAIN | LV_STATE_DEFAULT);
-                    lv_label_set_text(obj, "Oder mich");
+                    lv_label_set_text(obj, "Or me....");
                 }
             }
         }
