@@ -83,6 +83,8 @@ The CYD Stand can be used with 55° as well as 35° angle. Take your pick...
 
 So if you like, feel free to use the STP File **ESP32_STAND_V2.stl** provided in folder **3D_PRINT** to put your CYD in a convenient position.
 
+Note: I yust found out that Github changes .stl files. My 19kB file became a 239kB file after upload and I can't open it anymore in Cura. Therefore I added an extra .zip file with the original. 
+
 
 That's it, folkes. Have fun...
 
